@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "monsterparty",
+	"version": "${version}",
+	"name": "Monster Party",
+	"description": "Monster Party is a mod that aims to take horror tropes and stereotypes and turn them into silly (and often helpful!) creatures.",
+	"authors": [
+		"Verna"
+	],
+	"contact": {
+		"homepage": "N/A",
+		"sources": "N/A"
+	},
+	"license": "MIT",
+	"icon": "assets/monsterparty/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.verna.freakycreatures.MonsterParty"
+		],
+		"fabric-datagen": [
+			"com.verna.freakycreatures.MonsterPartyDataGenerator"
+		],
+      "client": [
+        "com.verna.freakycreatures.MonsterPartyClient"
+      ]
+	},
+	"mixins": [
+		"monsterparty.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
