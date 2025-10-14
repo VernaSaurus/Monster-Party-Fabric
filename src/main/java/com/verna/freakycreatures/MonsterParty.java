@@ -1,5 +1,6 @@
 package com.verna.freakycreatures;
 
+import com.verna.freakycreatures.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class MonsterParty implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+        ModItems.registerModItems();
 	}
 }
