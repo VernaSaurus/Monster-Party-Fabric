@@ -1,0 +1,26 @@
+{
+  "mockingbird_hurt" : {
+    "subtitle" : "sounds.monsterparty.mockingbird_hurt",
+    "sounds" : [
+      "monsterparty:mockingbird_hurt1",
+      "monsterparty:mockingbird_hurt2"
+    ]
+  },
+  "mockingbird_ambient" : {
+    "subtitle" : "sounds.monsterparty.mockingbird_ambient",
+    "sounds" : [
+      "monsterparty:mockingbird_cave1",
+      "monsterparty:mockingbird_cave2",
+      "monsterparty:mockingbird_cave3",
+      "monsterparty:mockingbird_cave4",
+      "monsterparty:mockingbird_cave5",
+      "monsterparty:mockingbird_cave6"
+    ]
+  },
+  "mockingbird_die" : {
+    "subtitle" : "sounds.monsterparty.mockingbird_die",
+    "sounds" : [
+      "monsterparty:mockingbird_die"
+    ]
+  }
+}

@@ -1,4 +1,11 @@
 {
   "item.monsterparty.mocking_feather": "Fibrous Feather",
-  "item.monsterparty.hard_hat": "Shulker Shellmet"
+  "item.monsterparty.hard_hat": "Shulker Shellmet",
+  "item.monsterparty.mockingbird_spawn_egg":  "Mockingbird Spawn Egg",
+
+  "entity.monsterparty.mockingbird": "Mockingbird",
+
+  "sounds.monsterparty.mockingbird_ambient": "Eerie noises?",
+  "sounds.monsterparty.mockingbird_hurt": "Mockingbird hurts",
+  "sounds.monsterparty.mockingbird_die": "Mockingbird dies"
 }
